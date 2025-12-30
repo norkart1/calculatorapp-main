@@ -9,7 +9,7 @@
         "buildType": "apk"
       },
       "ios": {
-        "buildType": "simulator"
+        "distribution": "internal"
       }
     },
     "preview": {
@@ -18,20 +18,20 @@
         "buildType": "apk"
       },
       "ios": {
-        "buildType": "simulator"
+        "distribution": "internal"
       }
     },
     "production": {
       "android": {
-        "buildType": "aab"
+        "buildType": "app-bundle"
+      },
+      "ios": {
+        "distribution": "store"
       }
     }
   },
   "submit": {
     "production": {
-      "android": {
-        "serviceAccount": "path/to/service-account.json"
-      },
       "ios": {
         "appleId": "your-apple-id@example.com",
         "appleTeamId": "your-team-id",
