@@ -144,7 +144,7 @@ export default function CalculatorScreen() {
             </View>
           </Pressable>
         </Link>
-        <Text style={[styles.headerTitle, { color: colors.text }]}>Calculator</Text>
+        <Text style={[styles.headerTitle, { color: colors.text }]} numberOfLines={1}>Nork Calc</Text>
         <Pressable 
           onPress={toggleTheme}
           style={styles.themeButton}
@@ -244,10 +244,11 @@ const styles = StyleSheet.create({
     marginLeft: -8,
   },
   headerTitle: {
-    fontSize: 20,
+    fontSize: 18,
     fontWeight: '700',
     flex: 1,
     textAlign: 'center',
+    marginHorizontal: 8,
   },
   themeButton: {
     padding: 8,
