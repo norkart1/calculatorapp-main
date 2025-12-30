@@ -47,10 +47,7 @@
     },
     "owner": "navas835",
     "extra": {
-      "router": {},
-      "eas": {
-        "projectId": "ffc042eb-07b3-4659-8b62-a3c87b11d1a5"
-      }
+      "router": {}
     }
   }
 }
