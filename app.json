@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "Nork Calc",
-    "slug": "calculator",
+    "slug": "nork-calc",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/logo.png",
@@ -10,7 +10,7 @@
     "newArchEnabled": true,
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.navasms.calculator",
+      "bundleIdentifier": "com.navas835.norkcalc",
       "appStoreId": "0",
       "infoPlist": {
         "ITSAppUsesNonExemptEncryption": false
@@ -21,7 +21,7 @@
         "backgroundColor": "#1a1b26",
         "foregroundImage": "./assets/images/logo.png"
       },
-      "package": "com.navasms.calculator",
+      "package": "com.navas835.norkcalc",
       "edgeToEdgeEnabled": true,
       "predictiveBackGestureEnabled": false
     },
@@ -45,7 +45,7 @@
       "typedRoutes": true,
       "reactCompiler": true
     },
-    "owner": "navasms",
+    "owner": "navas835",
     "extra": {
       "router": {},
       "eas": {
