@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "Nork Calc",
-    "slug": "nork-calc",
+    "slug": "calculator",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/logo.png",
@@ -11,7 +11,10 @@
     "ios": {
       "supportsTablet": true,
       "bundleIdentifier": "com.navasms.calculator",
-      "appStoreId": "0"
+      "appStoreId": "0",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
     },
     "android": {
       "adaptiveIcon": {
@@ -42,6 +45,12 @@
       "typedRoutes": true,
       "reactCompiler": true
     },
-    "owner": "calculator"
+    "owner": "navasms",
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "ffc042eb-07b3-4659-8b62-a3c87b11d1a5"
+      }
+    }
   }
 }
